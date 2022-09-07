@@ -30,7 +30,7 @@ name: npm
 
 steps:
 - name: npm_install
-  image: alpine
+  image: node
   commands:
   - npm install
   - echo 'install finish'
